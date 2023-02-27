@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.css-coursetimelinecard-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.css-title-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.css-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.css-tag-ul-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.css-eachTag-container {
+  margin: 10px;
+  background-color: gray;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+}
